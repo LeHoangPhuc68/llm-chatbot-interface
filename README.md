@@ -13,13 +13,7 @@ Technical Features
         CJK Ratio Check: Ngăn chặn model bị "jailbreak" dẫn đến phản hồi bằng ngôn ngữ lạ (Trung/Nhật/Hàn).
     Audit Logging: Toàn bộ lịch sử vi phạm được ghi lại chi tiết tại safety.log phục vụ công tác giám sát.
 
-├── app.py                # Entry point: Gradio UI & Guard Logic
-├── qwen_guard_project/   # Core ML Backend & Scoring Runtime
-├── prompts/              # System Prompt Configuration
-├── tools/                # Utilities for dataset & conversion
-└── requirements.txt      # Dependency list
-
 Quick Start
-    Python 3.10+, Ollama (Model: qwen2.5:7b-instruct).
-    pip install -r requirements.txt
-    python app.py
+    #Python 3.10+, Ollama (Model: qwen2.5:7b-instruct).
+    #pip install -r requirements.txt
+    #python app.py
