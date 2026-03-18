@@ -1,0 +1,12 @@
+.venv/
+__pycache__/
+*.py[cod]
+safety.log
+log.html
+*.log
+models/
+data/
+*.jsonl
+.vscode/
+.idea/
+.env
